@@ -28,5 +28,5 @@ fmnist_merge  10       False          0.216689        0.019329         0.000119 
   "H3_p": NaN,
   "H3_n": 30
 }
-alpha=0.7; escalate=True; wrote 5 figures -> /Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures
+alpha=0.7; escalate=True; wrote 5 figures -> ./figures
 ANALYSIS EXIT 0
