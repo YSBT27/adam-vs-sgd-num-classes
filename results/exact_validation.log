@@ -1,4 +1,4 @@
-/Users/yoavshabtai/Documents/Private/Uni/DL- Project/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+./.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 FAIL fmnist_merge_C10_adam_lr1.0e-03_s0 frac=0.0 worst rel_err(rho,e_diag)=0.2242
 FAIL fmnist_merge_C10_adam_lr1.0e-03_s0 frac=0.1 worst rel_err(rho,e_diag)=0.0595
@@ -192,4 +192,4 @@ FAIL fmnist_merge_C5_sgd_lr3.0e-03_s0 frac=0.0 worst rel_err(rho,e_diag)=0.4160
 PASS fmnist_merge_C5_sgd_lr3.0e-03_s0 frac=0.1 worst rel_err(rho,e_diag)=0.0257
 FAIL fmnist_merge_C5_sgd_lr3.0e-03_s0 frac=0.5 worst rel_err(rho,e_diag)=0.1324
 PASS fmnist_merge_C5_sgd_lr3.0e-03_s0 frac=1.0 worst rel_err(rho,e_diag)=0.0134
-30/192 checkpoints pass -> /Users/yoavshabtai/Documents/Private/Uni/DL- Project/results/exact_validation.csv
+30/192 checkpoints pass -> ./results/exact_validation.csv
