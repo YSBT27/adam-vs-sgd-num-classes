@@ -30,4 +30,4 @@ phase 2: 6 runs (seeds (1, 2)) at the best multiplier
 [4/6] cifar_merge_C10_sgd_lr3.0e-02_head10x_s2: loss=1.1982 acc=0.4269 diverged=False 273s
 [5/6] cifar_merge_C20_sgd_lr3.0e-02_head3x_s1: loss=1.4689 acc=0.3853 diverged=False 108s
 [6/6] cifar_merge_C20_sgd_lr3.0e-02_head3x_s2: loss=1.3277 acc=0.4107 diverged=False 110s
-done -> /Users/yoavshabtai/Documents/Private/Uni/DL- Project/results/lastlayer_runs.csv
+done -> ./results/lastlayer_runs.csv
