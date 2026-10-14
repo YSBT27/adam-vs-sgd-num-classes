@@ -1,4 +1,4 @@
-/Users/yoavshabtai/Documents/Private/Uni/DL- Project/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+./.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 WARNING: e_diag passed the 5% exact check on only 16% of FCN checkpoints (median rel err 0.20). Treat e_diag as noisy at HUTCH_PROBES=50; raise HUTCH_PROBES or read e_diag with its e_diag_se.
 280 (run, frac) pairs to measure on default device
