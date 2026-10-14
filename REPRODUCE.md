@@ -12,6 +12,8 @@ There are two levels of reproduction:
 
 Level A is enough to check that the report matches the experiments. Level B checks the experiments themselves.
 
+The finished figures and tables are already in figures/ and results/. The per-run training logs (runs/, runs_lastlayer/) and the dataset caches (probes/) are not in the repository because of their size; they are created by running Level B, after which Level A works as described.
+
 ---
 
 ## Level A: regenerate everything from the saved results
