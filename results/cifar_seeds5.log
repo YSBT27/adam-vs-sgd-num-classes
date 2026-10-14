@@ -1,0 +1,30 @@
+28/56 runs to do on per-protocol default device
+[1/28] cifar_merge_C2_sgd_lr1.0e-01_s3: loss=0.5686 acc=0.6459 diverged=False 110s
+[2/28] cifar_merge_C2_sgd_lr1.0e-01_s4: loss=0.5633 acc=0.6478 diverged=False 110s
+[3/28] cifar_merge_C2_adam_lr1.0e-03_s3: loss=0.1655 acc=0.6615 diverged=False 116s
+[4/28] cifar_merge_C2_adam_lr1.0e-03_s4: loss=0.2064 acc=0.6579 diverged=False 113s
+[5/28] cifar_merge_C5_sgd_lr3.0e-02_s3: loss=1.0535 acc=0.4781 diverged=False 111s
+[6/28] cifar_merge_C5_sgd_lr3.0e-02_s4: loss=1.1912 acc=0.4472 diverged=False 112s
+[7/28] cifar_merge_C5_adam_lr1.0e-03_s3: loss=0.3489 acc=0.4745 diverged=False 112s
+[8/28] cifar_merge_C5_adam_lr1.0e-03_s4: loss=0.4493 acc=0.4659 diverged=False 112s
+[9/28] cifar_merge_C10_sgd_lr3.0e-02_s3: loss=1.1940 acc=0.4261 diverged=False 114s
+[10/28] cifar_merge_C10_sgd_lr3.0e-02_s4: loss=1.3203 acc=0.4134 diverged=False 113s
+[11/28] cifar_merge_C10_adam_lr1.0e-03_s3: loss=0.5140 acc=0.4300 diverged=False 112s
+[12/28] cifar_merge_C10_adam_lr1.0e-03_s4: loss=0.6405 acc=0.4390 diverged=False 111s
+[13/28] cifar_merge_C20_sgd_lr3.0e-02_s3: loss=1.3432 acc=0.4084 diverged=False 111s
+[14/28] cifar_merge_C20_sgd_lr3.0e-02_s4: loss=1.4044 acc=0.4080 diverged=False 111s
+[15/28] cifar_merge_C20_adam_lr1.0e-03_s3: loss=0.6085 acc=0.4184 diverged=False 118s
+[16/28] cifar_merge_C20_adam_lr1.0e-03_s4: loss=0.8346 acc=0.4110 diverged=False 114s
+[17/28] cifar_merge_C50_sgd_lr3.0e-02_s3: loss=1.3182 acc=0.4197 diverged=False 113s
+[18/28] cifar_merge_C50_sgd_lr3.0e-02_s4: loss=1.2733 acc=0.4356 diverged=False 111s
+[19/28] cifar_merge_C50_adam_lr1.0e-03_s3: loss=0.7854 acc=0.4201 diverged=False 112s
+[20/28] cifar_merge_C50_adam_lr1.0e-03_s4: loss=0.8517 acc=0.4482 diverged=False 112s
+[21/28] cifar_merge_C100_sgd_lr3.0e-02_s3: loss=1.0592 acc=0.4746 diverged=False 112s
+[22/28] cifar_merge_C100_sgd_lr3.0e-02_s4: loss=1.0481 acc=0.4712 diverged=False 111s
+[23/28] cifar_merge_C100_adam_lr1.0e-03_s3: loss=0.8092 acc=0.4756 diverged=False 112s
+[24/28] cifar_merge_C100_adam_lr1.0e-03_s4: loss=0.8835 acc=0.4845 diverged=False 112s
+[25/28] cifar_merge_C20_sc_sgd_lr3.0e-02_s3: loss=0.6619 acc=0.5871 diverged=False 111s
+[26/28] cifar_merge_C20_sc_sgd_lr3.0e-02_s4: loss=0.6602 acc=0.5922 diverged=False 111s
+[27/28] cifar_merge_C20_sc_adam_lr1.0e-03_s3: loss=0.3775 acc=0.6030 diverged=False 112s
+[28/28] cifar_merge_C20_sc_adam_lr1.0e-03_s4: loss=0.5097 acc=0.5974 diverged=False 112s
+SWEEP EXIT 0

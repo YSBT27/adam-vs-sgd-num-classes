@@ -1,0 +1,1 @@
+RunRecord(run_id='cifar_merge_C10_adam_lr1.0e-03_s0', protocol='cifar_merge', C=10, superclass=False, seed=0, optimizer='adam', lr=0.001, steps=8000, final_train_loss=0.5466143508255482, best_test_acc=0.4214, final_test_acc=0.4011, diverged=False, wall_time_s=845.0429389476776)

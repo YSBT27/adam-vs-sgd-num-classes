@@ -1,0 +1,13 @@
+parameter,value
+mu (SGD momentum),0.9
+beta1,0.9
+beta2,0.999
+eps,1e-08
+weight decay,0.0
+warmup steps,200.0
+batch size,128.0
+steps CIFAR,8000.0
+steps FMNIST,2000.0
+probe images per original class,10.0
+Hutchinson vectors q,50.0
+smoothing window,50.0

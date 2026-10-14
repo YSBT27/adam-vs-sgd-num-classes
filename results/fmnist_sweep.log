@@ -1,0 +1,60 @@
+30/30 runs to do on per-protocol default device
+[1/30] fmnist_merge_C2_sgd_lr3.0e-01_s0: loss=0.2066 acc=0.9116 diverged=False 1s
+[2/30] fmnist_merge_C2_sgd_lr1.0e-01_s0: loss=0.1557 acc=0.9313 diverged=False 1s
+[3/30] fmnist_merge_C2_sgd_lr3.0e-02_s0: loss=0.1560 acc=0.9318 diverged=False 1s
+[4/30] fmnist_merge_C2_sgd_lr1.0e-02_s0: loss=0.1708 acc=0.9249 diverged=False 1s
+[5/30] fmnist_merge_C2_sgd_lr3.0e-03_s0: loss=0.2024 acc=0.9098 diverged=False 1s
+[6/30] fmnist_merge_C2_adam_lr3.0e-03_s0: loss=0.1556 acc=0.9311 diverged=False 1s
+[7/30] fmnist_merge_C2_adam_lr1.0e-03_s0: loss=0.1662 acc=0.9266 diverged=False 1s
+[8/30] fmnist_merge_C2_adam_lr3.0e-04_s0: loss=0.1972 acc=0.9120 diverged=False 1s
+[9/30] fmnist_merge_C2_adam_lr1.0e-04_s0: loss=0.2421 acc=0.8956 diverged=False 1s
+[10/30] fmnist_merge_C2_adam_lr3.0e-05_s0: loss=0.3335 acc=0.8513 diverged=False 1s
+[11/30] fmnist_merge_C5_sgd_lr3.0e-01_s0: loss=0.5459 acc=0.8131 diverged=False 1s
+[12/30] fmnist_merge_C5_sgd_lr1.0e-01_s0: loss=0.3586 acc=0.8501 diverged=False 1s
+[13/30] fmnist_merge_C5_sgd_lr3.0e-02_s0: loss=0.3425 acc=0.8572 diverged=False 1s
+[14/30] fmnist_merge_C5_sgd_lr1.0e-02_s0: loss=0.3752 acc=0.8441 diverged=False 1s
+[15/30] fmnist_merge_C5_sgd_lr3.0e-03_s0: loss=0.4575 acc=0.8156 diverged=False 1s
+[16/30] fmnist_merge_C5_adam_lr3.0e-03_s0: loss=0.3420 acc=0.8573 diverged=False 1s
+[17/30] fmnist_merge_C5_adam_lr1.0e-03_s0: loss=0.3831 acc=0.8405 diverged=False 1s
+[18/30] fmnist_merge_C5_adam_lr3.0e-04_s0: loss=0.4623 acc=0.8141 diverged=False 1s
+[19/30] fmnist_merge_C5_adam_lr1.0e-04_s0: loss=0.5734 acc=0.7731 diverged=False 1s
+[20/30] fmnist_merge_C5_adam_lr3.0e-05_s0: loss=0.7739 acc=0.7073 diverged=False 1s
+[21/30] fmnist_merge_C10_sgd_lr3.0e-01_s0: loss=0.5797 acc=0.8152 diverged=False 1s
+[22/30] fmnist_merge_C10_sgd_lr1.0e-01_s0: loss=0.3759 acc=0.8496 diverged=False 1s
+[23/30] fmnist_merge_C10_sgd_lr3.0e-02_s0: loss=0.3618 acc=0.8598 diverged=False 1s
+[24/30] fmnist_merge_C10_sgd_lr1.0e-02_s0: loss=0.4012 acc=0.8432 diverged=False 1s
+[25/30] fmnist_merge_C10_sgd_lr3.0e-03_s0: loss=0.4690 acc=0.8222 diverged=False 1s
+[26/30] fmnist_merge_C10_adam_lr3.0e-03_s0: loss=0.3638 acc=0.8579 diverged=False 1s
+[27/30] fmnist_merge_C10_adam_lr1.0e-03_s0: loss=0.4016 acc=0.8420 diverged=False 1s
+[28/30] fmnist_merge_C10_adam_lr3.0e-04_s0: loss=0.4769 acc=0.8199 diverged=False 1s
+[29/30] fmnist_merge_C10_adam_lr1.0e-04_s0: loss=0.6057 acc=0.7777 diverged=False 1s
+[30/30] fmnist_merge_C10_adam_lr3.0e-05_s0: loss=0.9393 acc=0.7128 diverged=False 1s
+extending fmnist_merge C=2 sc=False adam: best 3.00e-03 is edge_high -> try 9.49e-03
+1/1 runs to do on per-protocol default device
+[1/1] fmnist_merge_C2_adam_lr9.5e-03_s0: loss=0.1578 acc=0.9335 diverged=False 1s
+extending fmnist_merge C=5 sc=False adam: best 3.00e-03 is edge_high -> try 9.49e-03
+1/1 runs to do on per-protocol default device
+[1/1] fmnist_merge_C5_adam_lr9.5e-03_s0: loss=0.3405 acc=0.8568 diverged=False 1s
+extending fmnist_merge C=5 sc=False adam: best 9.49e-03 is edge_high -> try 3.00e-02
+1/1 runs to do on per-protocol default device
+[1/1] fmnist_merge_C5_adam_lr3.0e-02_s0: loss=0.4012 acc=0.8436 diverged=False 1s
+extending fmnist_merge C=10 sc=False adam: best 3.00e-03 is edge_high -> try 9.49e-03
+1/1 runs to do on per-protocol default device
+[1/1] fmnist_merge_C10_adam_lr9.5e-03_s0: loss=0.3605 acc=0.8586 diverged=False 1s
+extending fmnist_merge C=10 sc=False adam: best 9.49e-03 is edge_high -> try 3.00e-02
+1/1 runs to do on per-protocol default device
+[1/1] fmnist_merge_C10_adam_lr3.0e-02_s0: loss=0.4426 acc=0.8401 diverged=False 1s
+12/12 runs to do on per-protocol default device
+[1/12] fmnist_merge_C2_sgd_lr1.0e-01_s1: loss=0.1796 acc=0.9202 diverged=False 1s
+[2/12] fmnist_merge_C2_sgd_lr1.0e-01_s2: loss=0.2015 acc=0.9081 diverged=False 1s
+[3/12] fmnist_merge_C2_adam_lr3.0e-03_s1: loss=0.1718 acc=0.9218 diverged=False 1s
+[4/12] fmnist_merge_C2_adam_lr3.0e-03_s2: loss=0.1969 acc=0.9119 diverged=False 1s
+[5/12] fmnist_merge_C5_sgd_lr3.0e-02_s1: loss=0.2841 acc=0.8823 diverged=False 1s
+[6/12] fmnist_merge_C5_sgd_lr3.0e-02_s2: loss=0.2795 acc=0.8750 diverged=False 1s
+[7/12] fmnist_merge_C5_adam_lr9.5e-03_s1: loss=0.2857 acc=0.8825 diverged=False 1s
+[8/12] fmnist_merge_C5_adam_lr9.5e-03_s2: loss=0.2777 acc=0.8805 diverged=False 1s
+[9/12] fmnist_merge_C10_sgd_lr3.0e-02_s1: loss=0.3773 acc=0.8540 diverged=False 1s
+[10/12] fmnist_merge_C10_sgd_lr3.0e-02_s2: loss=0.3649 acc=0.8531 diverged=False 1s
+[11/12] fmnist_merge_C10_adam_lr9.5e-03_s1: loss=0.3733 acc=0.8553 diverged=False 1s
+[12/12] fmnist_merge_C10_adam_lr9.5e-03_s2: loss=0.3694 acc=0.8468 diverged=False 1s
+EXIT 0

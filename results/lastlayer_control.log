@@ -1,0 +1,33 @@
+phase 1: 18 runs (seed 0) on mps
+[1/18] cifar_merge_C2_sgd_lr1.0e-01_head3x_s0: loss=0.6094 acc=0.6229 diverged=False 118s
+[2/18] cifar_merge_C2_sgd_lr1.0e-01_head10x_s0: loss=0.6548 acc=0.6074 diverged=False 155s
+[3/18] cifar_merge_C2_sgd_lr1.0e-01_head30x_s0: loss=0.7030 acc=0.5845 diverged=False 140s
+[4/18] cifar_merge_C5_sgd_lr3.0e-02_head3x_s0: loss=1.1511 acc=0.4455 diverged=False 138s
+[5/18] cifar_merge_C5_sgd_lr3.0e-02_head10x_s0: loss=1.1036 acc=0.4483 diverged=False 136s
+[6/18] cifar_merge_C5_sgd_lr3.0e-02_head30x_s0: loss=1.1110 acc=0.4537 diverged=False 123s
+[7/18] cifar_merge_C10_sgd_lr3.0e-02_head3x_s0: loss=1.2633 acc=0.4108 diverged=False 122s
+[8/18] cifar_merge_C10_sgd_lr3.0e-02_head10x_s0: loss=1.2430 acc=0.4048 diverged=False 122s
+[9/18] cifar_merge_C10_sgd_lr3.0e-02_head30x_s0: loss=1.2802 acc=0.3964 diverged=False 124s
+[10/18] cifar_merge_C20_sgd_lr3.0e-02_head3x_s0: loss=1.3427 acc=0.3994 diverged=False 125s
+[11/18] cifar_merge_C20_sgd_lr3.0e-02_head10x_s0: loss=1.3478 acc=0.3991 diverged=False 127s
+[12/18] cifar_merge_C20_sgd_lr3.0e-02_head30x_s0: loss=1.4280 acc=0.3965 diverged=False 125s
+[13/18] cifar_merge_C50_sgd_lr3.0e-02_head3x_s0: loss=1.2968 acc=0.4284 diverged=False 127s
+[14/18] cifar_merge_C50_sgd_lr3.0e-02_head10x_s0: loss=1.3596 acc=0.4156 diverged=False 129s
+[15/18] cifar_merge_C50_sgd_lr3.0e-02_head30x_s0: loss=1.4798 acc=0.4063 diverged=False 132s
+[16/18] cifar_merge_C100_sgd_lr3.0e-02_head3x_s0: loss=1.0714 acc=0.4708 diverged=False 138s
+[17/18] cifar_merge_C100_sgd_lr3.0e-02_head10x_s0: loss=1.2260 acc=0.4660 diverged=False 183s
+[18/18] cifar_merge_C100_sgd_lr3.0e-02_head30x_s0: loss=1.3853 acc=0.4562 diverged=False 252s
+C=2: final loss by head multiplier {1.0: 0.6082, 3.0: 0.6094, 10.0: 0.6548, 30.0: 0.703} -> best m=1
+C=5: final loss by head multiplier {1.0: 1.1914, 3.0: 1.1511, 10.0: 1.1036, 30.0: 1.111} -> best m=10
+C=10: final loss by head multiplier {1.0: 1.2963, 3.0: 1.2633, 10.0: 1.243, 30.0: 1.2802} -> best m=10
+C=20: final loss by head multiplier {1.0: 1.3629, 3.0: 1.3427, 10.0: 1.3478, 30.0: 1.428} -> best m=3
+C=50: final loss by head multiplier {1.0: 1.2844, 3.0: 1.2968, 10.0: 1.3596, 30.0: 1.4798} -> best m=1
+C=100: final loss by head multiplier {1.0: 1.0123, 3.0: 1.0714, 10.0: 1.226, 30.0: 1.3853} -> best m=1
+phase 2: 6 runs (seeds (1, 2)) at the best multiplier
+[1/6] cifar_merge_C5_sgd_lr3.0e-02_head10x_s1: loss=1.0275 acc=0.4665 diverged=False 243s
+[2/6] cifar_merge_C5_sgd_lr3.0e-02_head10x_s2: loss=1.0684 acc=0.4745 diverged=False 267s
+[3/6] cifar_merge_C10_sgd_lr3.0e-02_head10x_s1: loss=1.3087 acc=0.3883 diverged=False 282s
+[4/6] cifar_merge_C10_sgd_lr3.0e-02_head10x_s2: loss=1.1982 acc=0.4269 diverged=False 273s
+[5/6] cifar_merge_C20_sgd_lr3.0e-02_head3x_s1: loss=1.4689 acc=0.3853 diverged=False 108s
+[6/6] cifar_merge_C20_sgd_lr3.0e-02_head3x_s2: loss=1.3277 acc=0.4107 diverged=False 110s
+done -> /Users/yoavshabtai/Documents/Private/Uni/DL- Project/results/lastlayer_runs.csv

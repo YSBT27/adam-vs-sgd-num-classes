@@ -1,0 +1,363 @@
+section,quantity,computed,report,ok,note,known
+Table S1,mu (SGD momentum),0.9,0.9,True,,False
+Table S1,beta1,0.9,0.9,True,,False
+Table S1,beta2,0.999,0.999,True,,False
+Table S1,eps,1e-08,1e-8,True,,False
+Table S1,weight decay,0.0,0,True,,False
+Table S1,warmup steps,200.0,200,True,,False
+Table S1,batch size,128.0,128,True,,False
+Table S1,steps CIFAR,8000.0,8000,True,,False
+Table S1,steps FMNIST,2000.0,2000,True,,False
+Table S1,probe images per original class,10.0,10,True,,False
+Table S1,Hutchinson vectors q,50.0,50,True,,False
+Table S1,smoothing window,50.0,50,True,,False
+Table S1,checkpoints,"(0.0, 0.1, 0.5, 1.0)",holds,True,,False
+Table S1,SGD LR grid,"(0.3, 0.1, 0.03, 0.01, 0.003)",holds,True,,False
+Table S1,Adam LR grid,"(0.003, 0.001, 0.0003, 0.0001, 3e-05)",holds,True,,False
+Table S1,seeds,"0,1,2 (+3,4)",holds,True,,False
+Methods,SmallCNN parameters at C=100 (millions),0.299908,0.3,True,,False
+Methods,FCN parameters = 6304 + 33C: constant part,6304,6304,True,,False
+Methods,"last layer share of parameters, C=2 (%)",0.08981222978006446,0.1,True,,False
+Methods,"last layer share of parameters, C=100 (%)",4.301319071181829,4.3,True,,False
+Table S2,cifar_merge sweep_seed0,70.0,70,True,,False
+Table S2,cifar_merge extra_seeds,56.0,56,True,,False
+Table S2,cifar_merge total,126.0,126,True,,False
+Table S2,cifar_merge diverged,1.0,1,True,,False
+Table S2,cifar_merge median seconds/run,112.23472261428834,112,True,,False
+Table S2,cifar_merge total hours,4.3777570539712904,4.4,True,,False
+Table S2,fmnist_merge sweep_seed0,35.0,35,True,,False
+Table S2,fmnist_merge extra_seeds,12.0,12,True,,False
+Table S2,fmnist_merge total,47.0,47,True,,False
+Table S2,fmnist_merge diverged,0.0,0,True,,False
+Table S2,lastlayer_control sweep_seed0,24.0,24,True,,False
+Table S2,lastlayer_control extra_seeds,10.0,10,True,,False
+Table S2,lastlayer_control total,34.0,34,True,,False
+Table S2,lastlayer_control diverged,0.0,0,True,,False
+Table S2,lastlayer_control median seconds/run,137.05930495262146,137,True,,False
+Table S2,lastlayer_control total hours,1.662512566116121,1.7,True,,False
+Table S2,FMNIST median < 1 s/run,,holds,True,,False
+Table S2,total runs,207.0,207,True,,False
+Table S2,total hours,6.04837922434012,6.1,False,"the report adds the rounded rows (4.4 + 1.7); the unrounded total is 6.05 h, i.e. about 6.0 h",True
+Table S2,only diverged run is SGD lr 0.3 at C=20,['cifar_merge_C20_sgd_lr3.0e-01_s0'],holds,True,,False
+Table S3,cifar_merge C=2 adam LR,0.001,1e-3,True,,False
+Table S3,cifar_merge C=2 adam interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=2 sgd LR,0.1,0.1,True,,False
+Table S3,cifar_merge C=2 sgd interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=5 adam LR,0.001,1e-3,True,,False
+Table S3,cifar_merge C=5 adam interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=5 sgd LR,0.03,0.03,True,,False
+Table S3,cifar_merge C=5 sgd interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=10 adam LR,0.001,1e-3,True,,False
+Table S3,cifar_merge C=10 adam interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=10 sgd LR,0.03,0.03,True,,False
+Table S3,cifar_merge C=10 sgd interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=20 adam LR,0.001,1e-3,True,,False
+Table S3,cifar_merge C=20 adam interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=20 sgd LR,0.03,0.03,True,,False
+Table S3,cifar_merge C=20 sgd interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=20 sc adam LR,0.001,1e-3,True,,False
+Table S3,cifar_merge C=20 sc adam interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=20 sc sgd LR,0.03,0.03,True,,False
+Table S3,cifar_merge C=20 sc sgd interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=50 adam LR,0.001,1e-3,True,,False
+Table S3,cifar_merge C=50 adam interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=50 sgd LR,0.03,0.03,True,,False
+Table S3,cifar_merge C=50 sgd interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=100 adam LR,0.001,1e-3,True,,False
+Table S3,cifar_merge C=100 adam interior minimum,ok,holds,True,,False
+Table S3,cifar_merge C=100 sgd LR,0.03,0.03,True,,False
+Table S3,cifar_merge C=100 sgd interior minimum,ok,holds,True,,False
+Table S3,fmnist_merge C=2 adam LR,0.003,3e-3,True,,False
+Table S3,fmnist_merge C=2 adam interior minimum,ok,holds,True,,False
+Table S3,fmnist_merge C=2 sgd LR,0.1,0.1,True,,False
+Table S3,fmnist_merge C=2 sgd interior minimum,ok,holds,True,,False
+Table S3,fmnist_merge C=5 adam LR,0.0094868329805051,9.5e-3,True,,False
+Table S3,fmnist_merge C=5 adam interior minimum,ok,holds,True,,False
+Table S3,fmnist_merge C=5 sgd LR,0.03,0.03,True,,False
+Table S3,fmnist_merge C=5 sgd interior minimum,ok,holds,True,,False
+Table S3,fmnist_merge C=10 adam LR,0.0094868329805051,9.5e-3,True,,False
+Table S3,fmnist_merge C=10 adam interior minimum,ok,holds,True,,False
+Table S3,fmnist_merge C=10 sgd LR,0.03,0.03,True,,False
+Table S3,fmnist_merge C=10 sgd interior minimum,ok,holds,True,,False
+Table S3,FMNIST C=2 Adam grid extensions,1.0,1,True,,False
+Table S3,FMNIST C=5 Adam grid extensions,2.0,2,True,,False
+Table S3,FMNIST C=10 Adam grid extensions,2.0,2,True,,False
+Table S4,10 best-LR runs per C at init,"{2: 10, 5: 10, 10: 10, 20: 10, 50: 10, 100: 10}",holds,True,,False
+Table S4 / Table 1,C=2 rho_init,1.0,1.000,True,,False
+Table S4 / Table 1,C=2 r_block_init,1.0,1.000,True,,False
+Table S4 / Table 1,C=2 rho_end,1.0,1.000,True,,False
+Table S4 / Table 1,C=2 r_block_end,1.0,1.000,True,,False
+Table S4 / Table 1,C=5 rho_init,0.5007018636560685,0.501,True,,False
+Table S4 / Table 1,C=5 r_block_init,0.2469676677499471,0.247,True,,False
+Table S4 / Table 1,C=5 rho_end,0.522604784749077,0.523,True,,False
+Table S4 / Table 1,C=5 r_block_end,0.24712455054131466,0.247,True,,False
+Table S4 / Table 1,C=10 rho_init,0.33371382481548156,0.334,True,,False
+Table S4 / Table 1,C=10 r_block_init,0.11091669609331992,0.111,True,,False
+Table S4 / Table 1,C=10 rho_end,0.37740493453734497,0.377,True,,False
+Table S4 / Table 1,C=10 r_block_end,0.11225756245637852,0.112,True,,False
+Table S4 / Table 1,C=20 rho_init,0.22968491531392407,0.230,True,,False
+Table S4 / Table 1,C=20 r_block_init,0.05252033615692366,0.0525,True,,False
+Table S4 / Table 1,C=20 rho_end,0.3076334289549571,0.308,True,,False
+Table S4 / Table 1,C=20 r_block_end,0.05262305591258124,0.0526,True,,False
+Table S4 / Table 1,C=50 rho_init,0.1430427422850416,0.143,True,,False
+Table S4 / Table 1,C=50 r_block_init,0.02038747305415244,0.0204,True,,False
+Table S4 / Table 1,C=50 rho_end,0.3170998813352089,0.317,True,,False
+Table S4 / Table 1,C=50 r_block_end,0.01311001994476658,0.0131,True,,False
+Table S4 / Table 1,C=100 rho_init,0.10064051882300293,0.101,True,,False
+Table S4 / Table 1,C=100 r_block_init,0.01008395770177452,0.0101,True,,False
+Table S4 / Table 1,C=100 rho_end,0.3554140286439802,0.355,True,,False
+Table S4 / Table 1,C=100 r_block_end,0.00193887535280096,0.0019,True,,False
+Table S4,largest deviation from exact theory at init (%),1.2129329000211575,1.2,True,,False
+Results H1,"rho at end, C>=10: min",0.3076334289549571,0.31,True,,False
+Results H1,"rho at end, C>=10: max",0.37740493453734497,0.38,True,,False
+Table S5,frac=0.0 rho_slope,-0.5756257959517235,-0.58,True,,False
+Table S5,frac=0.0 rho_se,0.024025001281216176,0.02,True,,False
+Table S5,frac=0.0 r_block_slope,-1.1509253372429007,-1.15,True,,False
+Table S5,frac=0.0 r_block_se,0.0491433825217265,0.05,True,,False
+Table S5,frac=0.1 rho_slope,-0.3525833921336777,-0.35,True,,False
+Table S5,frac=0.1 rho_se,0.05547983535413131,0.06,True,,False
+Table S5,frac=0.1 r_block_slope,-1.2259448819687817,-1.23,True,,False
+Table S5,frac=0.1 r_block_se,0.041455395598696335,0.04,True,,False
+Table S5,frac=0.5 rho_slope,-0.30404183770388926,-0.30,True,,False
+Table S5,frac=0.5 rho_se,0.07464061810626382,0.07,True,,False
+Table S5,frac=0.5 r_block_slope,-1.3745566520900767,-1.37,True,,False
+Table S5,frac=0.5 r_block_se,0.06277222343285255,0.06,True,,False
+Table S5,frac=1.0 rho_slope,-0.25423185296758055,-0.25,True,,False
+Table S5,frac=1.0 rho_se,0.08771686726788587,0.09,True,,False
+Table S5,frac=1.0 r_block_slope,-1.5022318567983135,-1.50,True,,False
+Table S5,frac=1.0 r_block_se,0.11752389795300322,0.12,True,,False
+Appendix א.3,exact-form log-log slope of rho over C=2..100,-0.575873390675026,-0.576,True,,False
+Appendix א.3,exact-form log-log slope of r_block over C=2..100,-1.151746781350052,-1.152,True,,False
+Results H1 / analysis_notes.json,H1_rho_slope,-0.5756257724154146,-0.576,True,,False
+Results H1 / analysis_notes.json,H1_rho_se,0.00908072324900009,0.009,True,,False
+Results H1 / analysis_notes.json,H1_r_block_slope,-1.1509232624262846,-1.151,True,,False
+Results H1 / analysis_notes.json,H1_r_block_se,0.018581345402828724,0.019,True,,False
+Results H1 / analysis_notes.json,secondary_e_diag_P_slope,-0.3095596454567876,-0.31,True,,False
+Results H1 / analysis_notes.json,secondary_e_diag_P_se,0.056719733834230644,0.06,True,,False
+Results H1,"rho at C=100, init",0.10064051882300293,0.101,True,,False
+Results H1,"rho at C=100, end",0.3554140286439802,0.355,True,,False
+Table S7,e_diag*P C=2 frac=0.0,52740.058905675636,52700,True,,False
+Table S7,e_diag*P C=5 frac=0.0,53781.44958168549,53800,True,,False
+Table S7,e_diag*P C=10 frac=0.0,60565.24872319245,60600,True,,False
+Table S7,e_diag*P C=20 frac=0.0,41497.285287195424,41500,True,,False
+Table S7,e_diag*P C=50 frac=0.0,27987.10562644319,28000,True,,False
+Table S7,e_diag*P C=100 frac=0.0,16211.664865917588,16200,True,,False
+Table S7,e_diag*P C=2 frac=0.1,10905.419678390277,10900,True,,False
+Table S7,e_diag*P C=5 frac=0.1,1914.4085043337388,1910,True,,False
+Table S7,e_diag*P C=10 frac=0.1,1620.3162958531939,1620,True,,False
+Table S7,e_diag*P C=20 frac=0.1,1639.7372809814285,1640,True,,False
+Table S7,e_diag*P C=50 frac=0.1,1929.6015800539728,1930,True,,False
+Table S7,e_diag*P C=100 frac=0.1,1739.437924037825,1740,True,,False
+Table S7,e_diag*P C=2 frac=1.0,2989.2568342494933,2990,True,,False
+Table S7,e_diag*P C=5 frac=1.0,2181.5590906822804,2180,True,,False
+Table S7,e_diag*P C=10 frac=1.0,2656.5951525369246,2660,True,,False
+Table S7,e_diag*P C=20 frac=1.0,3203.0497088423454,3200,True,,False
+Table S7,e_diag*P C=50 frac=1.0,3764.2572991565357,3760,True,,False
+Table S7,e_diag*P C=100 frac=1.0,3244.882717849264,3240,True,,False
+Appendix ה.3,drop factor init -> 10%: min,4.836132900981622,5,True,,False
+Appendix ה.3,drop factor init -> 10%: max,37.37865803003679,37,True,,False
+Appendix ג.5,e_diag in the second half of training ~ 0.01,0.0070-0.0138,holds,True,,False
+Table S10,cv_block C=5 frac=0.0,0.043554103447861744,0.044,True,,False
+Table S10,cv_block C=5 frac=0.1,0.1603624235154361,0.160,True,,False
+Table S10,cv_block C=5 frac=0.5,0.13005357533193176,0.130,True,,False
+Table S10,cv_block C=5 frac=1.0,0.1433259606107105,0.143,True,,False
+Table S10,cv_block C=10 frac=0.0,0.0446325612185731,0.045,True,,False
+Table S10,cv_block C=10 frac=0.1,0.2769298890277869,0.277,True,,False
+Table S10,cv_block C=10 frac=0.5,0.2004795231346627,0.201,False,"0.20048 rounds to 0.200, not 0.201",True
+Table S10,cv_block C=10 frac=1.0,0.17757998907886705,0.178,True,,False
+Table S10,cv_block C=20 frac=0.0,0.046981177688283485,0.047,True,,False
+Table S10,cv_block C=20 frac=0.1,0.36217147085363294,0.362,True,,False
+Table S10,cv_block C=20 frac=0.5,0.2556934422279901,0.256,True,,False
+Table S10,cv_block C=20 frac=1.0,0.23314983099633632,0.233,True,,False
+Table S10,cv_block C=50 frac=0.0,0.05038605705241657,0.050,True,,False
+Table S10,cv_block C=50 frac=0.1,0.4983284042071004,0.498,True,,False
+Table S10,cv_block C=50 frac=0.5,0.3379518053949665,0.338,True,,False
+Table S10,cv_block C=50 frac=1.0,0.3510939474911939,0.351,True,,False
+Table S10,cv_block C=100 frac=0.0,0.051892622714129547,0.052,True,,False
+Table S10,cv_block C=100 frac=0.1,0.5996684528573266,0.600,True,,False
+Table S10,cv_block C=100 frac=0.5,0.43053286710858585,0.431,True,,False
+Table S10,cv_block C=100 frac=1.0,0.4897246492460308,0.490,True,,False
+Appendix ה.2,"FCN rho at C=10, init",0.3419101919186898,0.34,True,,False
+Appendix ה.2,"FCN rho at C=10, half of training",0.6901582010079901,0.69,True,,False
+Table S6,FCN exact rho C=2,1.0,1.000,True,,False
+Table S6,FCN exact r_block C=2,1.0,1.000,True,,False
+Table S6,FCN exact rho C=5,0.5111967759928825,0.511,True,,False
+Table S6,FCN exact r_block C=5,0.2385439180370508,0.239,True,,False
+Table S6,FCN exact rho C=10,0.3429868295862112,0.343,True,,False
+Table S6,FCN exact r_block C=10,0.1078010835366193,0.108,True,,False
+Table S8 / Table 1,cifar_merge C=2 delta_speed,,nan,True,,False
+Table S8 / Table 1,cifar_merge C=2 delta_loss,0.503209686795298,0.503,True,,False
+Table S8 / Table 1,cifar_merge C=2 delta_loss_se,0.022655278843266635,0.023,True,,False
+Table S8 / Table 1,cifar_merge C=2 delta_acc,0.00969999999999992,0.0097,True,,False
+Table S8 / Table 1,cifar_merge C=2 delta_acc_se,0.0016474222288168773,0.0016,True,,False
+Table S8 / Table 1,cifar_merge C=2 seeds,5.0,5,True,,False
+Table S8 / Table 1,cifar_merge C=5 delta_speed,0.6249332364394963,0.625,True,,False
+Table S8 / Table 1,cifar_merge C=5 delta_speed_se,0.01836967716339576,0.018,True,,False
+Table S8 / Table 1,cifar_merge C=5 delta_loss,0.44154534210761104,0.442,True,,False
+Table S8 / Table 1,cifar_merge C=5 delta_loss_se,0.018545557404592686,0.019,True,,False
+Table S8 / Table 1,cifar_merge C=5 delta_acc,0.00993999999999996,0.0099,True,,False
+Table S8 / Table 1,cifar_merge C=5 delta_acc_se,0.003903152571960242,0.0039,True,,False
+Table S8 / Table 1,cifar_merge C=5 seeds,5.0,5,True,,False
+Table S8 / Table 1,cifar_merge C=10 delta_speed,0.607564211231252,0.608,True,,False
+Table S8 / Table 1,cifar_merge C=10 delta_speed_se,0.022424818642701485,0.022,True,,False
+Table S8 / Table 1,cifar_merge C=10 delta_loss,0.30758598059223385,0.308,True,,False
+Table S8 / Table 1,cifar_merge C=10 delta_loss_se,0.016984549760317994,0.017,True,,False
+Table S8 / Table 1,cifar_merge C=10 delta_acc,0.01469999999999996,0.0147,True,,False
+Table S8 / Table 1,cifar_merge C=10 delta_acc_se,0.003739919785236048,0.0037,True,,False
+Table S8 / Table 1,cifar_merge C=10 seeds,5.0,5,True,,False
+Table S8 / Table 1,cifar_merge C=20 delta_speed,0.5606377347498724,0.561,True,,False
+Table S8 / Table 1,cifar_merge C=20 delta_speed_se,0.03805288837922708,0.038,True,,False
+Table S8 / Table 1,cifar_merge C=20 delta_loss,0.21830034675523757,0.218,True,,False
+Table S8 / Table 1,cifar_merge C=20 delta_loss_se,0.009124794392742505,0.009,True,,False
+Table S8 / Table 1,cifar_merge C=20 delta_acc,0.015159999999999941,0.0152,True,,False
+Table S8 / Table 1,cifar_merge C=20 delta_acc_se,0.004506062582787752,0.0045,True,,False
+Table S8 / Table 1,cifar_merge C=20 seeds,5.0,5,True,,False
+Table S8 / Table 1,cifar_merge C=20 superclass delta_speed,0.631215713645368,0.631,True,,False
+Table S8 / Table 1,cifar_merge C=20 superclass delta_speed_se,0.020514552173083966,0.021,True,,False
+Table S8 / Table 1,cifar_merge C=20 superclass delta_loss,0.06842743615704631,0.068,True,,False
+Table S8 / Table 1,cifar_merge C=20 superclass delta_loss_se,0.008686954929117616,0.009,True,,False
+Table S8 / Table 1,cifar_merge C=20 superclass delta_acc,0.016739999999999998,0.0167,True,,False
+Table S8 / Table 1,cifar_merge C=20 superclass delta_acc_se,0.004163844377495393,0.0042,True,,False
+Table S8 / Table 1,cifar_merge C=20 superclass seeds,5.0,5,True,,False
+Table S8 / Table 1,cifar_merge C=50 delta_speed,0.6011707964085125,0.601,True,,False
+Table S8 / Table 1,cifar_merge C=50 delta_speed_se,0.02792273074158011,0.028,True,,False
+Table S8 / Table 1,cifar_merge C=50 delta_loss,0.11223251634562233,0.112,True,,False
+Table S8 / Table 1,cifar_merge C=50 delta_loss_se,0.006515899232273576,0.007,True,,False
+Table S8 / Table 1,cifar_merge C=50 delta_acc,0.01033999999999996,0.0103,True,,False
+Table S8 / Table 1,cifar_merge C=50 delta_acc_se,0.0031131334696732843,0.0031,True,,False
+Table S8 / Table 1,cifar_merge C=50 seeds,5.0,5,True,,False
+Table S8 / Table 1,cifar_merge C=100 delta_speed,0.6245908770485071,0.625,True,,False
+Table S8 / Table 1,cifar_merge C=100 delta_speed_se,0.029510107933030133,0.030,True,,False
+Table S8 / Table 1,cifar_merge C=100 delta_loss,0.044962212857839176,0.045,True,,False
+Table S8 / Table 1,cifar_merge C=100 delta_loss_se,0.005103938627581238,0.005,True,,False
+Table S8 / Table 1,cifar_merge C=100 delta_acc,0.00195999999999996,0.0020,True,,False
+Table S8 / Table 1,cifar_merge C=100 delta_acc_se,0.004206494978007207,0.0042,True,,False
+Table S8 / Table 1,cifar_merge C=100 seeds,5.0,5,True,,False
+Table S8 / Table 1,fmnist_merge C=2 delta_speed,-0.292780933756796,-0.293,True,,False
+Table S8 / Table 1,fmnist_merge C=2 delta_speed_se,0.009072562798534472,0.009,True,,False
+Table S8 / Table 1,fmnist_merge C=2 delta_loss,0.005986436927194146,0.006,True,,False
+Table S8 / Table 1,fmnist_merge C=2 delta_loss_se,0.0032540914308425797,0.003,True,,False
+Table S8 / Table 1,fmnist_merge C=2 delta_acc,0.0017333333333333333,0.0017,True,,False
+Table S8 / Table 1,fmnist_merge C=2 delta_acc_se,0.001156623438193139,0.0012,True,,False
+Table S8 / Table 1,fmnist_merge C=2 seeds,3.0,3,True,,False
+Table S8 / Table 1,fmnist_merge C=5 delta_speed,0.2015180301468653,0.202,True,,False
+Table S8 / Table 1,fmnist_merge C=5 delta_speed_se,0.02191143429764663,0.022,True,,False
+Table S8 / Table 1,fmnist_merge C=5 delta_loss,0.00045312529856936663,0.000,True,,False
+Table S8 / Table 1,fmnist_merge C=5 delta_loss_se,0.0007435259428464726,0.001,True,,False
+Table S8 / Table 1,fmnist_merge C=5 delta_acc,0.0017666666666666334,0.0018,True,,False
+Table S8 / Table 1,fmnist_merge C=5 delta_acc_se,0.0018746851587518102,0.0019,True,,False
+Table S8 / Table 1,fmnist_merge C=5 seeds,3.0,3,True,,False
+Table S8 / Table 1,fmnist_merge C=10 delta_speed,0.21668852004194497,0.217,True,,False
+Table S8 / Table 1,fmnist_merge C=10 delta_speed_se,0.019329085883449778,0.019,True,,False
+Table S8 / Table 1,fmnist_merge C=10 delta_loss,0.0001188827548175334,0.000,True,,False
+Table S8 / Table 1,fmnist_merge C=10 delta_loss_se,0.0010855449581737412,0.001,True,,False
+Table S8 / Table 1,fmnist_merge C=10 delta_acc,-0.0020666666666666333,-0.0021,True,,False
+Table S8 / Table 1,fmnist_merge C=10 delta_acc_se,0.0022363164156958843,0.0022,True,,False
+Table S8 / Table 1,fmnist_merge C=10 seeds,3.0,3,True,,False
+Table S8,CIFAR C=5: seeds where SGD reaches the target,3.0,3,True,,False
+Table S9,C=2 steps_sgd,,nan,True,,False
+Table S9,C=2 steps_adam,5263.6,5260,True,,False
+Table S9,C=2 ratio,,nan,True,,False
+Table S9,C=2 L_sgd,0.5723604508638382,0.572,True,,False
+Table S9,C=2 L_adam,0.22356207523122426,0.224,True,,False
+Table S9,C=2 acc_sgd,0.64896,0.649,True,,False
+Table S9,C=2 acc_adam,0.65866,0.659,True,,False
+Table S9,C=5 steps_sgd,7320.0,7320,True,,False
+Table S9,C=5 steps_adam,3917.0,3920,True,,False
+Table S9,C=5 ratio,1.8681212308438495,1.87,True,,False
+Table S9,C=5 L_sgd,1.1344071705937386,1.134,True,,False
+Table S9,C=5 L_adam,0.4237673569470644,0.424,True,,False
+Table S9,C=5 acc_sgd,0.46299999999999997,0.463,True,,False
+Table S9,C=5 acc_adam,0.47294,0.473,True,,False
+Table S9,C=10 steps_sgd,5651.6,5650,True,,False
+Table S9,C=10 steps_adam,3072.8,3070,True,,False
+Table S9,C=10 ratio,1.8359539519219696,1.84,True,,False
+Table S9,C=10 L_sgd,1.2968920365273953,1.297,True,,False
+Table S9,C=10 L_adam,0.5886491428017616,0.589,True,,False
+Table S9,C=10 acc_sgd,0.41258,0.413,True,,False
+Table S9,C=10 acc_adam,0.42728,0.427,True,,False
+Table S9,C=20 steps_sgd,4254.8,4250,True,,False
+Table S9,C=20 steps_adam,2428.4,2430,True,,False
+Table S9,C=20 ratio,1.7517893210650415,1.75,True,,False
+Table S9,C=20 L_sgd,1.3981521378457547,1.398,True,,False
+Table S9,C=20 L_adam,0.7441827437430621,0.744,True,,False
+Table S9,C=20 acc_sgd,0.40108,0.401,True,,False
+Table S9,C=20 acc_adam,0.41624,0.416,True,,False
+Table S9,C=50 steps_sgd,2630.2,2630,True,,False
+Table S9,C=50 steps_adam,1442.4,1440,True,,False
+Table S9,C=50 ratio,1.8242533798730514,1.83,False,the report divides the rounded step counts (2630/1440); exp(mean delta_speed) = 1.824 -> 1.82,True
+Table S9,C=50 L_sgd,1.288762713521719,1.289,True,,False
+Table S9,C=50 L_adam,0.849706527620554,0.850,True,,False
+Table S9,C=50 acc_sgd,0.42956000000000005,0.430,True,,False
+Table S9,C=50 acc_adam,0.4399,0.440,True,,False
+Table S9,C=100 steps_sgd,1681.0,1680,True,,False
+Table S9,C=100 steps_adam,900.6,900,True,,False
+Table S9,C=100 ratio,1.8674817714656713,1.87,True,,False
+Table S9,C=100 L_sgd,1.041818601548672,1.042,True,,False
+Table S9,C=100 L_adam,0.8347599593997002,0.835,True,,False
+Table S9,C=100 acc_sgd,0.47678000000000004,0.477,True,,False
+Table S9,C=100 acc_adam,0.47874,0.479,True,,False
+Results H2,"Spearman(delta_speed, -rho) over C",-0.3,-0.30,True,,False
+Results H2,its p-value,0.623837664781073,0.62,True,,False
+Results H2,regression of delta_speed on log C: n,23.0,23,True,,False
+Results H2,regression slope,0.002626426912864325,0.003,True,,False
+Results H2,regression slope s.e.,0.013055914609731155,0.013,True,,False
+Appendix ה.4,"unnormalised L_SGD - L_Adam, C=2",0.34879837563261396,0.35,True,,False
+Appendix ה.4,"unnormalised L_SGD - L_Adam, C=5",0.7106398136466743,0.71,True,,False
+Appendix ה.4,"unnormalised L_SGD - L_Adam, C=10",0.7082428937256336,0.71,True,,False
+Appendix ה.4,"unnormalised L_SGD - L_Adam, C=20",0.6539693941026925,0.65,True,,False
+Appendix ה.4,"unnormalised L_SGD - L_Adam, C=50",0.439056185901165,0.44,True,,False
+Appendix ה.4,"unnormalised L_SGD - L_Adam, C=100",0.20705864214897174,0.21,True,,False
+Results H2,|delta_acc| <= 1.5 percentage points (merged CIFAR),max 0.0152,holds,True,,False
+Appendix ו.3,test accuracy range: min (%),40.108,40,True,,False
+Appendix ו.3,test accuracy range: max (%),65.866,66,True,,False
+Appendix ה.4,superclass mean best test accuracy (%),59.849,60,True,,False
+Appendix ה.4,random merge C=20 mean best test accuracy (%),40.866,41,True,,False
+Results H3,"Spearman(rho at init, delta_speed)",-0.06126482213438736,-0.06,True,,False
+Results H3,its p-value,0.7812492703654051,0.78,True,,False
+Results H3,"number of (C, seed) pairs",23.0,23,True,,False
+Appendix ה.4,"alpha=0.5: SGD censored at C in {2,5,10} except one seed at C=10","{2: 5, 5: 5, 10: 4, 20: 0, 50: 0, 100: 0}",holds,True,,False
+Appendix ה.4,"alpha=0.5 step ratio, uncensored C: min",1.415610300716437,1.4,True,,False
+Appendix ה.4,"alpha=0.5 step ratio, uncensored C: max",1.5508542726684797,1.55,True,,False
+Appendix ה.4,FMNIST target reached after 50-80 steps (inside warmup),59-66,holds,True,,False
+Appendix ה.4 (last-layer control),"kappa chosen by final loss, C=5",10.0,10,True,,False
+Appendix ה.4 (last-layer control),"kappa chosen by final loss, C=10",10.0,10,True,,False
+Appendix ה.4 (last-layer control),"kappa chosen by final loss, C=20",3.0,3,True,,False
+Appendix ה.4 (last-layer control),"kappa chosen by final loss, C=50",0.1,0.1,True,,False
+Appendix ה.4 (last-layer control),"kappa chosen by final loss, C=100",0.3,0.3,True,,False
+Appendix ה.4 (last-layer control),"delta_speed vs SGD at chosen kappa, C=5",0.4971751710256842,0.50,True,,False
+Appendix ה.4 (last-layer control),"delta_speed vs SGD at chosen kappa, C=10",0.4984326301698345,0.50,True,,False
+Appendix ה.4 (last-layer control),"delta_speed vs SGD at chosen kappa, C=20",0.5230759534724124,0.52,True,,False
+Appendix ה.4 (last-layer control),"delta_speed vs SGD at chosen kappa, C=50",0.6549981299986659,0.66,True,,False
+Appendix ה.4 (last-layer control),"delta_speed vs SGD at chosen kappa, C=100",0.6936347101060728,0.69,True,,False
+Appendix ה.4 (last-layer control),largest share of the loss gap closed (%),11.854928142375126,12,True,,False
+Appendix ה.4 (last-layer control),slope of delta_speed on log C: n,15.0,15,True,,False
+Appendix ה.4 (last-layer control),slope,0.07352561307739822,0.07,True,,False
+Appendix ה.4 (last-layer control),slope s.e.,0.015833435007537096,0.02,True,,False
+Appendix ה.4 (last-layer control),"seed 0, kappa=30: delta_speed C=5",0.3872980349609794,0.39,True,,False
+Appendix ה.4 (last-layer control),"seed 0, kappa=30: delta_speed C=10",0.4752883720032227,0.48,True,,False
+Appendix ה.4 (last-layer control),"seed 0, kappa=30: delta_speed C=20",0.30081507205393665,0.30,True,,False
+Appendix ה.4 (last-layer control),"seed 0, kappa=30: delta_speed C=50",0.366370683777588,0.37,True,,False
+Appendix ה.4 (last-layer control),"seed 0, kappa=30: delta_speed C=100",0.4909613831973447,0.49,True,,False
+Appendix ה.4 (last-layer control),"seed 0, plain SGD: delta_speed C=10",0.6061964887055102,0.61,True,,False
+Appendix ה.4 (last-layer control),"seed 0, plain SGD: delta_speed C=20",0.5153356939560267,0.52,True,,False
+Appendix ה.4 (last-layer control),"seed 0, plain SGD: delta_speed C=50",0.5457956166336644,0.55,True,,False
+Appendix ה.4 (last-layer control),"seed 0, plain SGD: delta_speed C=100",0.6383556317302629,0.64,True,,False
+Appendix ה.4 (last-layer control),"seed 0: steps to target fall as kappa grows, every C","[True, True, True, True, True]",holds,True,,False
+Table S11,FCN checkpoints validated,188.0,188,True,,False
+Table S11,rho pass_rate_pct,100.0,100,True,,False
+Table S11,rho median_rel_err_pct,1.8026771495371193e-07,0,True,,False
+Table S11,rho p90_rel_err_pct,2.1970473282350305e-06,0,True,,False
+Table S11,r_block pass_rate_pct,100.0,100,True,,False
+Table S11,r_block median_rel_err_pct,1.090621314965869e-06,0,True,,False
+Table S11,r_block p90_rel_err_pct,5.325589876431387e-05,0,True,,False
+Table S11,fro_sq median_rel_err_pct,5.13608344434786,5.1,True,,False
+Table S11,fro_sq p90_rel_err_pct,17.83962741635779,17.8,True,,False
+Table S11,e_diag pass_rate_pct,15.425531914893616,15.4,True,,False
+Table S11,e_diag median_rel_err_pct,19.967297984388477,20.0,True,,False
+Table S11,e_diag p90_rel_err_pct,69.36891450352,69.4,True,,False
+Table S11,e_diag_raw median_rel_err_pct,162.17148181664695,162,True,,False
+Table S11,e_diag_raw p90_rel_err_pct,834.3054994494486,834,True,,False
+Table S11,exact e_diag within +-2 jackknife s.e. (%),95.2127659574468,95.2,True,,False
+Appendix ה.7,e_diag median relative error at init (%),41.60138746301738,41,False,41.6% rounds to 42%,True
+Appendix ה.7,naive e_diag: median error factor,2.6217148181664696,2.6,True,,False

@@ -1,0 +1,50 @@
+{
+  "alpha": 0.7,
+  "alpha_source": "cli",
+  "protocol": "cifar_merge",
+  "hypothesis_tests": {
+    "alpha": 0.7,
+    "protocol": "cifar_merge",
+    "H1_rho_slope": -0.5756257724154146,
+    "H1_rho_se": 0.00908072324900009,
+    "H1_rho_theory": -0.5,
+    "H1_r_block_slope": -1.1509232624262846,
+    "H1_r_block_se": 0.018581345402828724,
+    "H1_r_block_theory": -1.0,
+    "secondary_e_diag_P_slope": -0.3095596454567876,
+    "secondary_e_diag_P_se": 0.056719733834230644,
+    "H2_n_C": 5,
+    "H2_spearman_speed_vs_neg_rho": -0.3,
+    "H2_p": 0.623837664781073,
+    "H2_spearman_speed_vs_C": -0.3,
+    "H2_C_p": 0.623837664781073,
+    "H3_spearman_rho0_vs_speed": -0.06126482213438736,
+    "H3_p": 0.7812492703654051,
+    "H3_n": 23
+  },
+  "escalation": {
+    "escalate": true,
+    "metric": "delta_speed",
+    "n_C": 5,
+    "n_seeds": 5,
+    "max_se": 0.03805288837922708,
+    "spread": 0.06429550168962384,
+    "rule_a": true,
+    "spearman_full": -0.3,
+    "loo_signs": [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "rule_b": true
+  },
+  "figures": [
+    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig1_gaps_vs_C.png",
+    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig2_rho_rblock_vs_C.png",
+    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig3_ediag_vs_C.png",
+    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig4_init_rho_vs_speed.png",
+    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig5_lr_sweep.png"
+  ]
+}

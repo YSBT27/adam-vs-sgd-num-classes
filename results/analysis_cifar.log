@@ -1,0 +1,32 @@
+    protocol   C  superclass  delta_speed_mean  delta_speed_se  delta_loss_mean  delta_loss_se  delta_acc_mean  delta_acc_se  n_seeds
+ cifar_merge   2       False               NaN             NaN         0.503210       0.022655        0.009700      0.001647        5
+ cifar_merge   5       False          0.624933        0.018370         0.441545       0.018546        0.009940      0.003903        5
+ cifar_merge  10       False          0.607564        0.022425         0.307586       0.016985        0.014700      0.003740        5
+ cifar_merge  20       False          0.560638        0.038053         0.218300       0.009125        0.015160      0.004506        5
+ cifar_merge  20        True          0.631216        0.020515         0.068427       0.008687        0.016740      0.004164        5
+ cifar_merge  50       False          0.601171        0.027923         0.112233       0.006516        0.010340      0.003113        5
+ cifar_merge 100       False          0.624591        0.029510         0.044962       0.005104        0.001960      0.004206        5
+fmnist_merge   2       False         -0.292781        0.009073         0.005986       0.003254        0.001733      0.001157        3
+fmnist_merge   5       False          0.201518        0.021911         0.000453       0.000744        0.001767      0.001875        3
+fmnist_merge  10       False          0.216689        0.019329         0.000119       0.001086       -0.002067      0.002236        3
+{
+  "alpha": 0.7,
+  "protocol": "cifar_merge",
+  "H1_rho_slope": -0.5756257724154146,
+  "H1_rho_se": 0.00908072324900009,
+  "H1_rho_theory": -0.5,
+  "H1_r_block_slope": -1.1509232624262846,
+  "H1_r_block_se": 0.018581345402828724,
+  "H1_r_block_theory": -1.0,
+  "secondary_e_diag_P_slope": -0.3095596454567876,
+  "secondary_e_diag_P_se": 0.056719733834230644,
+  "H2_spearman_speed_vs_neg_rho": NaN,
+  "H2_p": NaN,
+  "H2_spearman_speed_vs_C": NaN,
+  "H2_C_p": NaN,
+  "H3_spearman_rho0_vs_speed": NaN,
+  "H3_p": NaN,
+  "H3_n": 30
+}
+alpha=0.7; escalate=True; wrote 5 figures -> /Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures
+ANALYSIS EXIT 0
