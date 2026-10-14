@@ -41,10 +41,10 @@
     "rule_b": true
   },
   "figures": [
-    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig1_gaps_vs_C.png",
-    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig2_rho_rblock_vs_C.png",
-    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig3_ediag_vs_C.png",
-    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig4_init_rho_vs_speed.png",
-    "/Users/yoavshabtai/Documents/Private/Uni/DL- Project/figures/fig5_lr_sweep.png"
+    "./figures/fig1_gaps_vs_C.png",
+    "./figures/fig2_rho_rblock_vs_C.png",
+    "./figures/fig3_ediag_vs_C.png",
+    "./figures/fig4_init_rho_vs_speed.png",
+    "./figures/fig5_lr_sweep.png"
   ]
 }
