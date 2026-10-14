@@ -1,4 +1,4 @@
-/Users/yoavshabtai/Documents/Private/Uni/DL- Project/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+./.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 72 (run, frac) pairs to measure on default device
 [1/72] fmnist_merge_C10_adam_lr9.5e-03_s0 frac=0.0 rho=0.3430 r_block=0.1078 e_diag_P=16.731
