@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+runs/
+data/
+probes/
+*.pt
+*.npy
+.DS_Store
